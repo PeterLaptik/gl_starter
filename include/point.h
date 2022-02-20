@@ -15,17 +15,17 @@ class Point
         virtual ~Point()
         { }
 
-        float GetX(void)
+        float GetX(void) const
         {
             return m_x;
         }
 
-        float GetY(void)
+        float GetY(void) const
         {
             return m_y;
         }
 
-        float GetZ(void)
+        float GetZ(void) const
         {
             return m_z;
         }
